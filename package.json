@@ -1,0 +1,22 @@
+{
+  "name": "zihorm",
+  "version": "1.0.0",
+  "description": "zihorm is promise-based minimal ORM for MySQL and woowa tech camp.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "keywords": [
+    "orm",
+    "mysql2"
+  ],
+  "author": "Zih0 <ziho@kakao.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
