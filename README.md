@@ -1,6 +1,7 @@
 # zihorm
 
 zihorm is a tiny promise-based Node.js ORM tool for MySQL.
+This is an extremely experimental project, so expect things to break!
 
 <a href="https://github.com/Zih0/zihorm/blob/main/LICENSE">
     <img alt="NPM" src="https://img.shields.io/npm/l/zihorm">
@@ -95,7 +96,7 @@ const deleteUser = async () => {
 };
 ```
 
-### Raw Query
+### Raw Query (Recommend)
 
 ```js
 const [data, field] = await zihorm.query('select * from user');
