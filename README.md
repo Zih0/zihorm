@@ -111,6 +111,16 @@ DataTypes.DATE;
 DataTypes.BOOLEAN;
 ```
 
+## Op
+
+```js
+Op.eq : '='
+Op.lt : '<'
+Op.lte : '<='
+Op.gt : '>'
+Op.gte : '>='
+```
+
 ## options
 
 ### define Model option
@@ -132,3 +142,4 @@ DataTypes.BOOLEAN;
 |      **`where`** | `Object`                                      | `null`            | filter record option              |
 |      **`order`** | `[string] or [string, 'ASC' or 'DESC]`        | `[string , 'ASC]` | order records                     |
 |    **`include`** | `{pk: string, joinPk: string, model: string}` | `null`            | inner join                        |
+|    **`groupBy`** | `string`                                      | `null`            | group by field                    |

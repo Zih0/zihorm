@@ -1,6 +1,6 @@
 {
   "name": "zihorm",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "zihorm is promise-based minimal ORM for MySQL and woowa tech camp.",
   "main": "index.js",
   "type": "commonjs",
